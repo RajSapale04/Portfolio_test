@@ -1,0 +1,16 @@
+.main{
+    text-align: left;
+
+}
+.main p{
+    color: #FD6F00;
+    margin: 30px 0 10px;
+
+}
+.main h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+.main img{
+    border-radius: 10px;
+}

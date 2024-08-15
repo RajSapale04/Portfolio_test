@@ -1,7 +1,9 @@
 .logo path {
     fill: rgb(var(--text-color));
   }
-
+.logo{
+  cursor: pointer;
+}
 .logos{
 
     display: flex;

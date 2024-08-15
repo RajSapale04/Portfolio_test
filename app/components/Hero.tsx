@@ -1,6 +1,7 @@
 import React from 'react'
 import s from '../styles/hero.module.css'
 import Socials from './Socials'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
@@ -20,7 +21,7 @@ const Hero = () => {
         <div className={s.hero2}>
     <div className={s.div1}></div>
     <div className={s.line}></div>
-    <img src="/images/image1.png" alt="Description" />
+    <Image src="/images/image1.png" alt="Description" width={400} height={400}/>
     </div>
     <Socials/>         
         </div>

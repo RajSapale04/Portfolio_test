@@ -1,0 +1,33 @@
+/* Inside testislider.module.css */
+.main {
+    padding: 0 25%; /* Adjust height based on your content */
+    display: flex;
+    gap: 40px;
+    overflow: hidden; /* Hides overflowing content */
+    position: relative; /* Allows for positioning of buttons */
+}
+
+.maindiv {
+    min-width: 100%; /* Adjust the width based on your design */
+    height: 100%;
+    background-color: #F8F8F8;
+    transition: translate 300ms ease-in-out, opacity 300ms ease-in-out;
+    border-radius: 14px;
+    color: black;
+}
+
+.button{
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.button div{
+    width: 50px;
+    height: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 200ms ease-in-out;
+
+}
+

@@ -14,12 +14,12 @@ const Footer :FC = () => {
 
 
         <div className={s.navb}>
-        <div>Home</div>
-            <div>About Me</div>
-            <div>Services</div>
-            <div>Projects</div>
-            <div>Testimonials</div>
-            <div>Contact</div>
+        <a href="#home">Home</a>
+        <a href="#about-me">About Me</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
         </div>
 
         <div className={s.socials}>

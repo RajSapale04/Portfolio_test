@@ -53,6 +53,9 @@
     gap: 40px;
     align-items: center;
 }
+.navb a:hover{
+    color: #FD6F00;
+}
 .download{
     padding: 10px 17px;
     background-color: #FD6F00;

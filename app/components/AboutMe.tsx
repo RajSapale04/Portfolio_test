@@ -1,6 +1,7 @@
 import React from 'react'
 import s from '../styles/aboutme.module.css'
 import Slider from './Slider';
+import Image from 'next/image';
 
 
 const AboutMe = () => {
@@ -17,12 +18,15 @@ const AboutMe = () => {
     {key:4,name:"Grahic Design",num:85}
   ]
   return (
+    <div id='about-me' style={{paddingTop:'1px'}}>
+    <div  className={s.hero}>
+      <div>
 
-    <div className={s.hero}>
     <div className={s.hero2}>
     <div className={s.div1}></div>
     <div className={s.line}></div>
-    <img src="/images/image2.png" alt="Description" />
+    <Image src="/images/image2.png" alt="Description" width={400} height={400}/>
+      </div>
     </div>
     <div className={s.hero1}>
         <h2>About Me</h2>
@@ -31,6 +35,7 @@ const AboutMe = () => {
           <Slider key={key} name={name} num={num}/>
         ))}
 
+    </div>
     </div>
     </div>
   )

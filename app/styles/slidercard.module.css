@@ -1,0 +1,41 @@
+.quoteMarktop {
+    color: #fd6f00;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    left: -15px;
+    top: -20px;
+
+  }
+  .quoteMarkbot {
+    color: #fd6f00;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -25px;
+  }
+
+.card{
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+
+}
+.top{
+    position: relative;
+    margin: 20px 0;
+}
+.image{
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.text{
+    width: 70%;
+}
+.text h2{
+    font-weight: 500;
+    font-size: 20px;
+
+}

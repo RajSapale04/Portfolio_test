@@ -16,7 +16,7 @@ const Services = () => {
         {key:4,name:"Graphic Design",src:"logo4.png"},
     ]
   return (
-    <div className={s.flex}>
+    <div id='services' className={s.flex}>
         <h2>Services</h2>
         <p className={s.flexp}>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
         <div>

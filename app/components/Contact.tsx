@@ -3,7 +3,7 @@ import s from '../styles/contact.module.css'
 
 const Contact = () => {
   return (
-    <div className={s.flex}>
+    <div id='contact' className={s.flex}>
     <h2>Lets Design Together</h2>
     <p>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
     <div className={s.inp}>

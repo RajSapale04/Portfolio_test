@@ -38,7 +38,11 @@
     gap: 40px;
     align-items: center;
 }
+.navb a:hover{
+    color: #FD6F00;
+}
 .end{
+    color: white;
     text-align: center;
     padding: 20px 0;
     background-color: var(--footer-end);
