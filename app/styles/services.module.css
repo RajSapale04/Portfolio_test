@@ -1,0 +1,25 @@
+.flex{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+.flex h2{
+    font-weight: 600;
+    font-size: 36px;
+}
+.flexp{
+    width:60%;
+}
+.flex div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    color: black;
+}

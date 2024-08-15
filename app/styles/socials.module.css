@@ -1,0 +1,11 @@
+.logo path {
+    fill: rgb(var(--text-color));
+  }
+
+.logos{
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}

@@ -3,27 +3,35 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: #ffffff;
+  --text-color:0,0,0;
+  --dark-text:#1E1E1E;
+  --dark-footer:#F8F8F8;
+  --footer-end:#545454;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: #1E1E1E;
+    --text-color:255,255,255;
+    --dark-text: #FBFBFB;
+    --dark-footer:#1E1E1E;
+    --footer-end:#121212;
+    ;
   }
+
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Poppins',sans-serif;
+  color: rgb(var(--text-color));
+  background: var(--foreground-rgb);
 }
 
 @layer utilities {

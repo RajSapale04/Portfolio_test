@@ -1,0 +1,51 @@
+.hero{
+    display: flex;
+    width: 75%;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+.hero2 {
+    margin-top: 40px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border-radius: 200px;
+    background: rgb(253,111,0);
+    background: linear-gradient(0deg, rgba(253,111,0,1) 0%, rgba(58,52,52,0.7153711826527486) 72%);
+}
+
+
+
+.hero2 img{
+    z-index: 50; 
+    position: absolute;
+    border-radius: 200px;
+    width: 400px;
+    bottom: 0;
+}
+.div1{
+    position:absolute;
+    width: 388px;
+    height: 388px;
+    border-radius: 194px;
+    background-color: white;
+    bottom: 6px;
+    left: 6px;
+}
+.line{
+    background-color: #fd6e0097;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    z-index: 100;
+    left: 100px;
+    top: 0;
+}
+.hero1{
+    width: 55%;
+}
+.hero1 h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
